@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "UNCCScans",
+    "slug": "UNCCScans",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/UNCCLogo.png",
+    "splash": {
+      "image": "./app/assets/UNCCLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/UNCCLogo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/UNCCLogo.png"
+    }
+  }
+}
